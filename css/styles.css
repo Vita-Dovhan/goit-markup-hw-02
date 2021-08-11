@@ -1,0 +1,136 @@
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-colot: #757575;
+    --accent-color: #2196F3;
+    --back-ground-color: #2F303A;
+    --address-text-color:  rgba(255, 255, 255, 0.6);
+}
+body{
+font-family: 'Roboto', sans-serif;
+font-weight: 400px;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+/* index.html */
+.logo{
+font-family: 'Relaway' sans-serif;
+font-weight: 700;
+color: #2196F3;
+text-decoration: none;
+font-family: Raleway;
+font-size: 26px;
+line-height: 1.2;
+}
+
+.logo .logo-logo{
+color: #000000;
+}
+
+.nav, .navigation, .photo{
+list-style: none;
+}
+
+.list{
+color: var(--primary-text-color);
+line-height: 1.14;
+letter-spacing: 0.02em;
+font-weight: 500;
+text-decoration: none;
+}
+
+.navigation .list{
+font-weight: 500;
+line-height: 1.14;
+color: var(--secondary-text-colot);
+letter-spacing: 0.02em;
+}
+
+.current{
+color: var(--accent-color);
+}
+
+.list:hover, 
+.list:focus{
+color: var(--accent-color);
+}
+
+h1{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.main-section, .footer-section{
+background-color:  var(--back-ground-color);
+}
+
+h2{
+font-weight: 700px;
+font-size: 36px;
+line-height: 1.17;
+}
+
+.skills{
+font-weight: 700px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.descrip{
+color: var(--secondary-text-colot);
+}
+
+.team{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+
+.position{
+font-size: 16px;
+line-height: 1.19;
+color: var(--secondary-text-colot);
+}
+
+.address{
+color: #FFFFFF;
+list-style: none;
+}
+.contact{
+color: var(--address-text-color);
+}
+
+.contact:hover,
+.contact:focus{
+color: var(--accent-color);
+}
+
+/* portfolio.html */
+.button{
+cursor: pointer;
+}
+.button:hover, .button:focus{
+background-color: var(--accent-color);
+}
+
+.description{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.text{
+color: var(--secondary-text-colot);
+font-size: 16px;
+line-height: 1.88;
+}
+
+
+
