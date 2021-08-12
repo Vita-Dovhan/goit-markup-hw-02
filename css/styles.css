@@ -4,6 +4,7 @@
     --accent-color: #2196F3;
     --back-ground-color: #2F303A;
     --address-text-color:  rgba(255, 255, 255, 0.6);
+    --white-color: #ffffff;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -74,7 +75,7 @@ body{
     line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .main-section, 
@@ -95,7 +96,7 @@ body{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--white-color);
     background-color: var(--accent-color);
 }
 
@@ -127,7 +128,7 @@ body{
 
 .address-contact{
     font-style: normal;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .address-item{
@@ -150,7 +151,7 @@ body{
 
 .secondary-button:hover,
 .secondary-button:focus{
-    color: #FFFFFF;
+    color: var(--white-color);
     background-color: var(--accent-color);
 }
 
@@ -168,7 +169,7 @@ body{
 }
 
 .address-contact{
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .address-contact:hover,
