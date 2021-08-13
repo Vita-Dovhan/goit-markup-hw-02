@@ -5,6 +5,7 @@
     --back-ground-color: #2F303A;
     --address-text-color:  rgba(255, 255, 255, 0.6);
     --white-color: #ffffff;
+    --primary-font-family: 
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -88,9 +89,12 @@ body{
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: none;
 }
 
-.main-button:hover,
+/* .main-button:hover,
 .main-button:focus{
     font-weight: 700px;
     font-size: 16px;
@@ -98,7 +102,7 @@ body{
     letter-spacing: 0.06em;
     color: var(--white-color);
     background-color: var(--accent-color);
-}
+} */
 
 .skills{
     font-weight: 700px;
@@ -147,6 +151,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    cursor: pointer;
 }
 
 .secondary-button:hover,
@@ -176,4 +181,7 @@ body{
 .address-contact:focus{
     text-decoration: none;
     color: var(--accent-color);
+}
+.part-logo-footer{
+    color: #ffffff;
 }
